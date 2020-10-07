@@ -5,7 +5,7 @@ Starter template for Svelte projects. Followed [this tutorial](https://codechips
 ## Usage
 
 ```bash
-npx degit jcaguirre89/svlete-tailwind-starter target-dir
+npx degit jcaguirre89/svlete-tailwind-starter#main target-dir
 cd target-dir
 npm install
 ```
