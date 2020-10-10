@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ["eslint:recommended", "prettier"],
+  parser: "@typescript-eslint/parser", // Specifies the ESLint parser
   parserOptions: {
     ecmaVersion: 2020,
     sourceType: "module",
@@ -9,7 +9,8 @@ module.exports = {
     browser: true,
     node: true,
   },
-  plugins: ["svelte3"],
+  plugins: ["@typescript-eslint", "svelte3"],
+  extends: ["plugin:@typescript-eslint/recommended" , "prettier", "prettier/@typescript-eslint"],
   overrides: [
     {
       files: ["*.svelte"],
