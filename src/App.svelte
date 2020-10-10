@@ -1,5 +1,5 @@
 <script lang="ts">
-  const world = 'cis'; // edit world and save to see hmr update
+  const world = 'World'; // edit world and save to see hmr update
 </script>
 
 <style lang='postcss'>
